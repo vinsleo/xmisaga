@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://www.metamatrix.com/metamodels/Diagram" xmlns:jdbc="http://www.metamatrix.com/metamodels/JDBC" xmlns:mmcore="http://www.metamatrix.com/metamodels/Core" xmlns:relational="http://www.metamatrix.com/metamodels/Relational">
-  <mmcore:ModelAnnotation xmi:uuid="mmuuid:03051537-9c6f-4a86-87af-1ab20bc97dfe" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="PHYSICAL" ProducerName="Teiid Designer" ProducerVersion="8.4.1.Final-v20140508-1221-B2598">
+  <mmcore:ModelAnnotation xmi:uuid="mmuuid:03051537-9c6f-4a86-87af-1ab20bc97dfe" primaryMetamodelUri="http://www.metamatrix.com/metamodels/Relational" modelType="PHYSICAL" ProducerName="Teiid Designer" ProducerVersion="8.5.0.Final-v20140616-1350-B2658">
     <modelImports xmi:uuid="mmuuid:4a97182b-a17a-461e-9d40-79958e105c3f" name="XMLSchema" modelLocation="http://www.w3.org/2001/XMLSchema" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
     <modelImports xmi:uuid="mmuuid:258d348c-6177-4de7-99a8-b594d0c11453" name="SimpleDatatypes-instance" modelLocation="http://www.metamatrix.com/metamodels/SimpleDatatypes-instance" modelType="TYPE" primaryMetamodelUri="http://www.eclipse.org/xsd/2002/XSD"/>
   </mmcore:ModelAnnotation>
@@ -1639,7 +1639,7 @@
       <diagramEntity xmi:uuid="mmuuid:694eb99a-b665-4c86-9310-34c9bb394410" modelObject="mmuuid/1d08d628-718e-4fa8-99c8-f243efdc9804"/>
       <diagramEntity xmi:uuid="mmuuid:6b93d133-66b2-4bae-8275-be2a71e1399b" name="udm_delete_living_user" modelObject="mmuuid/b776b718-e941-465f-a8b7-93845ceb6102"/>
       <diagramEntity xmi:uuid="mmuuid:270eaed1-771c-45d1-a930-b86ea5b3968e" name="udm_update_living_user_pin" modelObject="mmuuid/b44fdd95-bb7a-4c2e-a57c-a2c196ab1851" xPosition="204" yPosition="88"/>
-      <diagramEntity xmi:uuid="mmuuid:8cc63c45-fd6c-4b22-8fff-12c0e2eb490a" name="udm_registeruser" modelObject="mmuuid/41246d66-02ab-45cd-a620-c6eafc425a38" xPosition="20" yPosition="20"/>
+      <diagramEntity xmi:uuid="mmuuid:8cc63c45-fd6c-4b22-8fff-12c0e2eb490a" name="udm_registeruser" modelObject="mmuuid/41246d66-02ab-45cd-a620-c6eafc425a38" xPosition="9" yPosition="266"/>
     </diagram>
   </diagram:DiagramContainer>
   <jdbc:JdbcSource xmi:uuid="mmuuid:fcb19089-92de-4a7a-af33-658e1333397f" name="Dev 1" driverName="PostgreSQL JDBC Driver" driverClass="org.postgresql.Driver" username="postgres" url="jdbc:postgresql://rr14mwrmz9kacv4.c3tq7jj9hilf.eu-west-1.rds.amazonaws.com:5432/livingdb">
@@ -1824,4 +1824,3 @@
     </result>
   </relational:Procedure>
 </xmi:XMI>
-<!-- TEST -->
