@@ -1630,15 +1630,15 @@
       <diagramEntity xmi:uuid="mmuuid:cce32f56-f11d-47a9-a7c6-130145c4c4b0" name="udm_transferrule" modelObject="mmuuid/de038bbe-8b16-4b4e-828b-27ebedd3214a" xPosition="2717" yPosition="861"/>
       <diagramEntity xmi:uuid="mmuuid:d03fa908-c047-4319-988f-debfcecd1e15" name="udm_ward" modelObject="mmuuid/32faebeb-898a-4794-96e9-496f8a11d8ca" xPosition="599" yPosition="1035"/>
       <diagramEntity xmi:uuid="mmuuid:739a4ed1-a07e-4a7e-85dc-b9520d261a3e" name="udm_checklivinguserexists" modelObject="mmuuid/1001fd86-6832-4e7f-bcbd-093e9a947116"/>
-      <diagramEntity xmi:uuid="mmuuid:c8ec66e5-a395-4bf7-aaca-d013800fe303" name="udm_createlivinguser" modelObject="mmuuid/583bebf0-a3dc-44e1-a042-bf22eea5e4e4"/>
-      <diagramEntity xmi:uuid="mmuuid:b202e8b9-bc83-480f-9dc9-0601dcb684a4" name="udm_getlivinguserid" modelObject="mmuuid/6d462ec0-2f0e-462b-9131-eb1dbdb02f8d"/>
+      <diagramEntity xmi:uuid="mmuuid:c8ec66e5-a395-4bf7-aaca-d013800fe303" name="udm_createlivinguser" modelObject="mmuuid/583bebf0-a3dc-44e1-a042-bf22eea5e4e4" xPosition="-246" yPosition="245"/>
+      <diagramEntity xmi:uuid="mmuuid:b202e8b9-bc83-480f-9dc9-0601dcb684a4" name="udm_getlivinguserid" modelObject="mmuuid/6d462ec0-2f0e-462b-9131-eb1dbdb02f8d" xPosition="-233" yPosition="14"/>
       <diagramEntity xmi:uuid="mmuuid:ce858408-2e88-4907-a19d-a7fa7a3d1489" name="udm_livinguser" modelObject="mmuuid/ec9c29f1-fce9-4e64-8046-04bfb83ac264" xPosition="240" yPosition="130"/>
-      <diagramEntity xmi:uuid="mmuuid:ee1ed25d-c81e-44d4-b7c4-e563a52fd81e" name="udm_confirmuseragreement" modelObject="mmuuid/63cdc71e-2598-40fa-9a5d-766780bb7450" xPosition="20" yPosition="20"/>
-      <diagramEntity xmi:uuid="mmuuid:37a99b5d-8198-49ee-9aa0-dc55bd2060fb" name="udm_getlatestuseragreement" modelObject="mmuuid/8e7d5255-7c5b-49fe-a184-767594ad0544" xPosition="40" yPosition="30"/>
-      <diagramEntity xmi:uuid="mmuuid:5861a4ac-a64e-404c-bfb3-181d1025e323" modelObject="mmuuid/da9dbc71-afa0-491c-992c-f271ccfdcabc" xPosition="20" yPosition="20"/>
-      <diagramEntity xmi:uuid="mmuuid:694eb99a-b665-4c86-9310-34c9bb394410" modelObject="mmuuid/1d08d628-718e-4fa8-99c8-f243efdc9804"/>
-      <diagramEntity xmi:uuid="mmuuid:6b93d133-66b2-4bae-8275-be2a71e1399b" name="udm_delete_living_user" modelObject="mmuuid/b776b718-e941-465f-a8b7-93845ceb6102"/>
-      <diagramEntity xmi:uuid="mmuuid:270eaed1-771c-45d1-a930-b86ea5b3968e" name="udm_update_living_user_pin" modelObject="mmuuid/b44fdd95-bb7a-4c2e-a57c-a2c196ab1851" xPosition="204" yPosition="88"/>
+      <diagramEntity xmi:uuid="mmuuid:ee1ed25d-c81e-44d4-b7c4-e563a52fd81e" name="udm_confirmuseragreement" modelObject="mmuuid/63cdc71e-2598-40fa-9a5d-766780bb7450" xPosition="-13" yPosition="469"/>
+      <diagramEntity xmi:uuid="mmuuid:37a99b5d-8198-49ee-9aa0-dc55bd2060fb" name="udm_getlatestuseragreement" modelObject="mmuuid/8e7d5255-7c5b-49fe-a184-767594ad0544" xPosition="6" yPosition="646"/>
+      <diagramEntity xmi:uuid="mmuuid:5861a4ac-a64e-404c-bfb3-181d1025e323" modelObject="mmuuid/da9dbc71-afa0-491c-992c-f271ccfdcabc" xPosition="230" yPosition="610"/>
+      <diagramEntity xmi:uuid="mmuuid:694eb99a-b665-4c86-9310-34c9bb394410" modelObject="mmuuid/1d08d628-718e-4fa8-99c8-f243efdc9804" xPosition="201" yPosition="400"/>
+      <diagramEntity xmi:uuid="mmuuid:6b93d133-66b2-4bae-8275-be2a71e1399b" name="udm_delete_living_user" modelObject="mmuuid/b776b718-e941-465f-a8b7-93845ceb6102" xPosition="-241" yPosition="499"/>
+      <diagramEntity xmi:uuid="mmuuid:270eaed1-771c-45d1-a930-b86ea5b3968e" name="udm_update_living_user_pin" modelObject="mmuuid/b44fdd95-bb7a-4c2e-a57c-a2c196ab1851" xPosition="440" yPosition="399"/>
       <diagramEntity xmi:uuid="mmuuid:8cc63c45-fd6c-4b22-8fff-12c0e2eb490a" name="udm_registeruser" modelObject="mmuuid/41246d66-02ab-45cd-a620-c6eafc425a38" xPosition="9" yPosition="266"/>
     </diagram>
   </diagram:DiagramContainer>
@@ -1726,6 +1726,9 @@
     </columns>
     <columns xmi:uuid="mmuuid:4cf04667-526b-49b9-9c11-e2508ddd4c7d" name="accepted_agreement">
       <type href="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </columns>
+    <columns xmi:uuid="mmuuid:f3019045-b74e-463e-8778-165f320b8171" name="vinay">
+      <type href="http://www.w3.org/2001/XMLSchema#string"/>
     </columns>
     <primaryKey xmi:uuid="mmuuid:872ef6bd-c481-4d1d-a522-40e5b678c558" name="livinguser_pkey" nameInSource="&quot;livinguser_pkey&quot;" columns="mmuuid/8bf12f5b-1847-47c9-837b-efe5fef3dcf1" foreignKeys="mmuuid/c94268e3-53e6-4274-ae15-2dbc912d5357 mmuuid/ec86c79d-fc9c-45be-b160-89c9ca388e16 mmuuid/cec71a3a-3059-434f-87c0-cbe2de4ec5d7 mmuuid/d903df2e-592c-4123-8281-cca8ba5747a2 mmuuid/b1dc38f9-5aae-45d9-bcf8-23d99b331af5 mmuuid/37cfa91e-0574-414b-8818-6b27ec5e148d mmuuid/7037f94a-0be1-4ae8-85a2-7f46f0513ba7 mmuuid/e236a30e-2f4f-4426-a9d4-3689aebaafb6 mmuuid/53a1614d-bece-429c-a604-e0b889f2744f mmuuid/36457d64-d0ec-45b3-93ec-ac279ede9489 mmuuid/8b289b44-9bdc-4cd6-b809-bca5ce447f8a mmuuid/a62e6be0-640d-4c59-8606-7f5710506214"/>
   </relational:BaseTable>
